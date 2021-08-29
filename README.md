@@ -17,6 +17,13 @@ total 72
 -rw-r--r--  1 nick  staff   158B Aug 29 07:01 index.html
 ```
 
+## redux
+```
+$ ll public/
+total 216
+-rw-r--r--  1 nick  staff   106K Aug 29 07:40 bundle.js
+```
+
 ## preact,htm
 ```
 $ ll public/

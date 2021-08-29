@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build": "browserify -p esmify -p common-shakeify -t unassertify -t uglifyify --debug index.js > public/bundle.js"
+  },
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "common-shakeify": "^0.6.2",
+    "esmify": "^2.1.1",
+    "redux": "^4.1.1",
+    "uglifyify": "^5.0.2",
+    "unassertify": "^2.1.1"
+  }
+}
