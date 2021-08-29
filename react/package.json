@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "build": "browserify --debug index.js -o public/bundle.js -t [ babelify --presets [ @babel/preset-react @babel/preset-env ] ] -p common-shakeify -t unassertify -t uglifyify"
+  },
+  "dependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "common-shakeify": "^0.6.2",
+    "react-dom": "^17.0.2",
+    "uglifyify": "^5.0.2",
+    "unassertify": "^2.1.1"
+  }
+}
